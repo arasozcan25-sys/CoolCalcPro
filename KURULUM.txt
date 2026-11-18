@@ -1,0 +1,33 @@
+COOLCALC PRO – iPhone'a kurulum
+============================================
+
+Bu klasördeki dosyalar birlikte yüklenir (KURULUM.txt hariç 7 dosya). Adlarını değiştirmeyin.
+
+1) GITHUB PAGES'E YÜKLE (bir kez, bilgisayardan daha rahat)
+   a. github.com'da ücretsiz hesap açın.
+   b. Sağ üstte "+" > "New repository". Ad: CoolCalcIphone  ·  "Public" seçin  ·  Create.
+   c. Açılan sayfada "uploading an existing file" linkine basın.
+      Bu klasördeki tüm dosyaları sürükleyip bırakın > "Commit changes".
+   d. Settings > Pages > "Branch: main" ve "/ (root)" seçin > Save.
+   e. 1-2 dakika sonra adres hazır olur:
+      https://KULLANICI-ADINIZ.github.io/CoolCalcIphone/
+
+2) iPHONE'A KUR
+   a. Adresi iPhone'da SAFARI ile açın (Chrome değil).
+   b. Alttaki Paylaş düğmesi (kare + yukarı ok) > "Ana Ekrana Ekle" > Ekle.
+   c. Ana ekrandaki küp simgesinden açın.
+      İlk açılışta internet olsun; sonrasında internetsiz çalışır.
+
+3) GÜNCELLEME
+   Yeni index.html'i GitHub'a aynı adla yükleyin, sw.js içindeki
+   'cc-v1' yazısını 'cc-v2' yapıp onu da yükleyin.
+   Telefonda uygulamayı internet varken bir-iki kez açıp kapatın.
+
+NOTLAR
+ - Her uygulama için AYRI repo açın (ör. CoolCalcIphone). Aynı repoya koymayın.
+ - Bu sürüm (v1.4) düzeltmeleri: donma gizli ısısı yalnızca ürün odada
+   donuyorsa ekleniyor (donma öncesi/sonrası ayrı özgül ısı); kompresör
+   çalışma süresi alanı eklendi (varsayılan 18 saat/gün).
+ - Yazı tipleri dosyanın içinde; internet olmadan da aynı görünür.
+ - index.html bilgisayarda da açılır; eski dosyanın yerine kullanabilirsiniz.
+ - Repo "Public" olduğu için adresi bilen herkes programı açabilir.
